@@ -1,0 +1,156 @@
+    .okay-btn{
+        background-color:#6ABD6E;
+        border: solid transparent;
+        border-radius: 10px;
+        padding:7px;
+        color:white;
+        margin-bottom:15px;
+    }
+
+    .okay-btn:hover{
+        background-color:#467E49;
+        cursor: pointer;
+        box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+
+    .info-btn{
+        background-color:#47A8F5;
+        border: solid transparent;
+        border-radius: 10px;
+        padding:7px;
+        color:white;
+        margin-bottom:15px;
+    }
+
+    .info-btn:hover{
+        background-color:#2F70A3;
+        cursor: pointer;
+        box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+
+    .random-btn{
+        background-color:#00A0BD;
+        border: solid transparent;
+        border-radius: 10px;
+        padding:7px;
+        color:white;
+        margin-bottom:15px;
+    }
+
+    .random-btn:hover{
+        cursor: pointer;
+        box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+
+    .material-btn{
+        background-color: white;
+        border: solid transparent;
+        border-radius: 10px;
+        padding:7px;
+        color:#00A0BD;
+        margin-bottom:15px;
+        font-weight: bold;
+    }
+
+    .material-btn:hover{
+        cursor: pointer;
+        color:#006A7E;
+    }
+
+/***********
+TEXTBOX
+************/
+
+    .input-holder{
+        width:100%;
+        display: flex;
+        margin-bottom: 15px;
+        
+    }
+
+    .tbox-append{
+        border-radius: 5px 0px 0px 5px;
+    }
+
+    .tbox-prepend{
+        border-radius: 0px 5px 5px 0px;
+    }
+
+    /***TEXTBOX LABEL***/
+    
+    .tbox-group{
+        background-color: #00A0BD;
+        padding:10px;
+        color:white;
+    }
+    
+    /***TEXTBOX ICON***/
+    .tbox-icon{
+        background-color: #00A0BD;
+        background-position: center;
+        background-size:20px, 0px; /*IMAGE*/
+        padding-left:40px;
+        padding-top:5px;
+        padding-bottom:5px;
+    }
+
+    .tbox-icon-inner{
+        background-position: center;
+        background-size:20px, 0px; /*IMAGE*/
+        position:relative;
+        border:1px solid red;
+    }
+
+    /***TEXTBOX with ICON***/
+    .icon-tbox{
+        background-color:#EDEFF0;
+        border:1px solid #CECECE;
+        padding:10px;
+        width:100%;
+    }
+
+    .plain-tbox{
+        background-color:#EDEFF0;
+        border:1px solid #CECECE;
+        padding:10px;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+
+    .icon-tbox:focus{
+        box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+     }
+
+    .plain-tbox:focus{
+        box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+     }
+
+
+/***********
+ICONS
+************/
+    .icon{
+        background-size:20px,0px;
+        padding-left:25px;
+    }
+
+    .icon-infow{
+        background-image: url('../infow.png');
+        background-repeat: no-repeat;
+        color:transparent;
+    }
+
+    .icon-infob{
+        background-image: url('../infob.png');
+        background-repeat: no-repeat;
+    }
+
+    .userw-icon{
+        background-image: url('../userw.png');
+        background-repeat: no-repeat;
+    }
+
+
+
+
+    

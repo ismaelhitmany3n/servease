@@ -1,0 +1,73 @@
+        .jumbotron{
+            margin:0 auto;
+            border-radius: 5px;
+            padding:35px;
+            
+            /*Added items*/
+            max-width: 1280px;
+            
+            /*Removed items from default*/
+            /*border:3px solid #CECECE;
+            background-color:white;
+            margin-bottom:15px;
+            */
+        }
+
+        .panel{
+            background-color:white;
+            border-radius: 10px;
+            margin-bottom:15px;
+        }
+
+        .panel-material{
+            background-color:white;
+            border-radius: 2px;
+            box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        }
+
+        .panel-default{
+            background-color:#CECECE;
+            border:1px solid #CECECE;
+            color:#747474;
+        }
+
+        .panel-primary{
+            background-color:#47A8F5;
+            border:1px solid #47A8F5;
+            color:white;
+        }
+
+        .panel-success{
+            background-color:#6ABD6E;
+            border:1px solid #6ABD6E;
+            color:white;
+        }
+
+        .panel-header{
+            border-radius: 10px 10px 0px 0px;
+            padding:15px;
+        }
+
+        .panel-content{
+            background-color: white;
+            border-radius: 0px 0px 10px 10px;
+            padding:15px;
+        }
+
+        .footer{
+            width: 100%;
+            min-width:200px;
+            max-width: auto;
+            height:200px;
+            float:left;
+            background-color: #242729;
+        }
+
+        .footer-content{
+            font-size: 13px;
+            padding:10px;
+            margin:auto;
+            text-align: center;
+            color:#CECFCF;
+        }
+        

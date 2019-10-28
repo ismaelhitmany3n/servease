@@ -1,0 +1,47 @@
+        /***********
+        ALERTS
+        ************/
+        
+        .alert-red{
+            border:2px solid #F66359;
+            border-left:7px solid #F66359; /*ADDITIONAL DESIGN*/
+            background-color: #FCCBC7;
+            padding:15px;
+            position: static;
+            border-radius:5px;
+            margin-bottom: 15px;
+            overflow: auto;
+        }
+        
+        .alert-blue{
+            border:2px solid #47A8F5;
+            border-left:7px solid #47A8F5; /*ADDITIONAL DESIGN*/
+            background-color: #C1E2FB;
+            padding:15px;
+            position: static;
+            border-radius:5px;
+            margin-bottom: 15px;
+            overflow: auto;
+        }
+        
+        .alert-green{
+            border:2px solid #6ABD6E;
+            border-left:7px solid #6ABD6E; /*ADDITIONAL DESIGN*/
+            background-color: #CDE9CE;
+            padding:15px;
+            position: static;
+            border-radius:5px;
+            margin-bottom: 15px;
+            overflow: auto;
+        }
+        
+        .alert-yellow{
+            border:2px solid #FFAA2B;
+            border-left:7px solid #FFAA2B; /*ADDITIONAL DESIGN*/
+            background-color: #FFE2B8;
+            padding:15px;
+            position: static;
+            border-radius:5px;
+            margin-bottom: 15px;
+            overflow: auto;
+        }
